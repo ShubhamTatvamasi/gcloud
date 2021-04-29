@@ -1,5 +1,7 @@
 # gcloud
 
+https://shell.cloud.google.com
+
 SSH in cloud shell:
 ```bash
 gcloud cloud-shell ssh
