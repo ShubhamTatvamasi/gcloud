@@ -14,7 +14,9 @@ gcloud cloud-shell scp cloudshell:~/data.txt localhost:~data.txt
 
 download iso image from cloud shell server:
 ```bash
+DOWNLOAD_FILE=Lens-5.0.0-beta.2.20210429.2.amd64.deb
+
 gcloud cloud-shell scp \
-  cloudshell:/home/shubhamtatvamasi/Fedora-Workstation-Live-x86_64-34-1.2.iso \
-  localhost:/tmp/Fedora-Workstation-Live-x86_64-34-1.2.iso
+  cloudshell:/home/shubhamtatvamasi/$DOWNLOAD_FILE \
+  localhost:/tmp/$DOWNLOAD_FILE
 ```
