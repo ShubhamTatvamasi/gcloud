@@ -17,6 +17,6 @@ download iso image from cloud shell server:
 DOWNLOAD_FILE=Lens-5.0.0-beta.2.20210429.2.amd64.deb
 
 gcloud cloud-shell scp \
-  cloudshell:/home/shubhamtatvamasi/$DOWNLOAD_FILE \
+  cloudshell:~/$DOWNLOAD_FILE \
   localhost:/tmp/$DOWNLOAD_FILE
 ```
