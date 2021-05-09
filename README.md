@@ -20,3 +20,8 @@ gcloud cloud-shell scp \
   cloudshell:~/$DOWNLOAD_FILE \
   localhost:/tmp/$DOWNLOAD_FILE
 ```
+
+mount current folder to remote:
+```bash
+gcloud cloud-shell get-mount-command .
+```
