@@ -25,3 +25,5 @@ mount current folder to remote:
 ```bash
 gcloud cloud-shell get-mount-command .
 ```
+> folder should be empty
+
